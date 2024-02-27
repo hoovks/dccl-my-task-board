@@ -13,7 +13,7 @@ export const Card = ({ children, onClose }: CardProps) => {
           className="w-8 h-8 grid place-items-center border-2 rounded-md cursor-pointer	"
         >
           <img
-            src="./src/assets/images/close_ring_duotone-1.svg"
+            src="./assets/images/close_ring_duotone-1.svg"
             alt="close icon"
           />
         </div>

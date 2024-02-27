@@ -17,11 +17,7 @@ export const Header = () => {
 
   return (
     <div className="grid grid-cols-[auto,auto,1fr] gap-x-4 gap-y-2 py-2">
-      <img
-        src="./src/assets/images/logo.svg"
-        alt="logo"
-        className="min-w-min"
-      />
+      <img src="./assets/images/logo.svg" alt="logo" className="min-w-min" />
       {isEditMode ? (
         <>
           <input
@@ -41,7 +37,7 @@ export const Header = () => {
             {title}
           </span>
           <img
-            src="./src/assets/images/edit_duotone.svg"
+            src="./assets/images/edit_duotone.svg"
             className="self-center min-w-min "
           />
         </>

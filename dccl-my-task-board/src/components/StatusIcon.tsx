@@ -11,7 +11,7 @@ export const StatusIcon = ({ status }: StatusIconProps) => {
         <div
           className={`bg-${status.iconColor} w-10 h-10 rounded-xl grid place-items-center`}
         >
-          <img src={`./src/assets/images/${status.symbol}`} alt="" />
+          <img src={`./assets/images/${status.symbol}`} alt="" />
         </div>
       )}
     </>

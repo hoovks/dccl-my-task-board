@@ -26,7 +26,7 @@ export const Button = ({ onClick, variant }: ButtonProps) => {
       onClick={onClick}
     >
       <span>{label}</span>
-      <img src={`./src/assets/images/${icon}`} alt="" />
+      <img src={`./assets/images/${icon}`} alt="" />
     </div>
   );
 };

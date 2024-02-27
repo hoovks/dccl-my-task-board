@@ -31,7 +31,7 @@ export const StatusEdit = ({ onStatusClick, status }: StatusEditProps) => {
               }
             >
               <div className={`bg-${iconColor} flex gap-2 p-4 rounded-2xl m-1`}>
-                <img src={`./src/assets/images/${symbol}`} alt="" />
+                <img src={`./assets/images/${symbol}`} alt="" />
               </div>
               <span className="text-black">{label}</span>
             </div>
