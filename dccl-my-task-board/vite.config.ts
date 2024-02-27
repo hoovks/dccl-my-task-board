@@ -4,10 +4,16 @@ import tailwindcss from "tailwindcss";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "./",
   plugins: [react()],
   css: {
     postcss: {
       plugins: [tailwindcss()],
+    },
+  },
+  server: {
+    watch: {
+      usePolling: true,
     },
   },
 });
